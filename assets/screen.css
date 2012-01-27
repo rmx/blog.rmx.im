@@ -40,6 +40,13 @@ h1 time {
   left: 6px;
   font-size: 12px;
 }
+ul {
+  margin: 0 40px;
+  list-style-type: circle;
+}
+img {
+  max-width: 500px;
+}
 
 header {
   position: relative;
@@ -110,4 +117,64 @@ article {
 }
 article .content {
   padding: 6px 10px;
+}
+
+span.center {
+  display: block;
+  text-align: center;
+  max-width: 
+}
+
+span.shadow {
+  display: inline-block;
+  padding: 8px;
+}
+
+span.shadow {
+  border: 1px solid #efefef;
+  position: relative;
+  background: #ffffff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 60px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+}
+
+span.shadow:after { 
+  z-index: -1; 
+  position: absolute; 
+  background: transparent; 
+  width: 50%; 
+  height: 50%; 
+  content: ''; 
+  right: 0; 
+  bottom: 0;
+
+  -webkit-transform-origin: right bottom;
+  -moz-transform-origin: right bottom;
+
+  -webkit-transform: skew(20deg) rotate(10deg);
+  -moz-transform: skew(20deg) rotate(10deg);
+
+  -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+} 
+
+span.shadow:before { 
+  z-index: -1; 
+  position: absolute; 
+  background: transparent; 
+  width: 50%; 
+  height: 50%; 
+  content: ''; 
+  left: 0; 
+  bottom: 0; 
+
+  -webkit-transform-origin: left bottom;
+  -moz-transform-origin: left bottom;
+
+  -webkit-transform: skew(-20deg) rotate(-10deg);
+  -moz-transform: skew(-20deg) rotate(-10deg);
+
+  -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
