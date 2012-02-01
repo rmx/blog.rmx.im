@@ -4,7 +4,7 @@
 }
 body {
   background: url("texture.png");
-  font: 14px/1.4 "Myriad Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px/1.4 "myriad-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
 }
 html,
