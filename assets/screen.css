@@ -4,7 +4,8 @@
 }
 body {
   background: url("texture.png");
-  font: 14px/1.4 "myriad-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px/1.4 "myriad-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
   color: #333;
 }
 html,
@@ -19,7 +20,7 @@ body {
   margin-top: 20px;
 }
 a {
-  color: #00b7ff;
+  color: #08C;
   text-decoration: none;
 }
 p {
