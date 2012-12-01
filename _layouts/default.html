@@ -12,19 +12,28 @@
 </head>
 <body>
 
-<div id="container">
-  <header>
-    <a href="/" class="logo"><span>blog.</span>rmx<span>.im</span></a>
-  </header>
+<header>
+    <div class='container'>
+        <a href="/" class="logo"><span>blog.</span>rmx<span>.im</span></a>
+        <div class='divider-vertical'></div>
 
+        <ul id="menu" class="normal">
+            <li><a href="http://encounter.io" class="minibutton"><span>encounter.io</span></a></li>
+        </ul>
+    </div>
+</header>
+
+<div id="container">
   <div id='content'>
     {{ content }}
   </div>
-
-  <footer>
-    <p>© rmx inc.</p>
-  </footer>
 </div>
+
+<footer>
+    <div class='container'>
+        <span>© rmx inc. all rights reserved</span>
+    </div>
+</footer>
 
 {% include gauges.html %}
 </body>
