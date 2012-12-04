@@ -9,6 +9,10 @@
 
    <script type="text/javascript" src="//use.typekit.com/nli5ftd.js"></script>
    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+   <script src="/assets/jquery-1.8.3.min.js"></script>
+   <script src="/assets/jquery.tweet.js"></script>
+   <script src="/assets/application.js"></script>
 </head>
 <body>
 
@@ -16,17 +20,24 @@
     <div class='container'>
         <a href="/" class="logo"><span>blog.</span>rmx<span>.im</span></a>
         <div class='divider-vertical'></div>
-
-        <ul id="menu" class="normal">
-            <li><a href="http://encounter.io" class="minibutton"><span>encounter.io</span></a></li>
-        </ul>
     </div>
 </header>
 
 <div id="container">
-  <div id='content'>
-    {{ content }}
-  </div>
+    <div id='content'>
+        {{ content }}
+    </div>
+    <div id='sidebar'>
+        <div id='encounter'>
+            <a class='btn btn-primary btn-large' href="http://encounter.io" style='display:block;margin:0 auto;text-align:center'>
+                <span>play the game</span>
+            </a>
+        </div>
+        <div class='tweet-box'>
+            <h3>Tweets from <a href='https://twitter.com/rmxinc'>@rmxinc</a></h3>
+            <div id='tweets'></div>
+        </div>
+    </div>
 </div>
 
 <footer>

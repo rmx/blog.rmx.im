@@ -70,11 +70,18 @@ header #menu li {
 }
 
 #container, .container {
-  width: 600px;
+  width: 960px;
   margin: 0 auto;
+  overflow: hidden;
 }
 #content {
   margin-top: 20px;
+  float: left;
+  width: 600px;
+}
+#sidebar {
+    float: right;
+    width: 300px;
 }
 a {
   color: #08C;
@@ -103,7 +110,7 @@ h1 time {
   left: 6px;
   font-size: 14px;
 }
-ul {
+#content ul {
   margin: 0 40px;
   list-style-type: circle;
 }
@@ -260,4 +267,115 @@ span.shadow:before {
     height: 22px;
     line-height: 22px;
     padding: 0 7px;
+}
+
+#sidebar {
+    border-left: 1px solid #f1f1f1;
+    padding: 10px 0 20px 20px;
+}
+
+#encounter {
+    margin-bottom: 30px;
+}
+
+.tweet-box h3 {
+    font-family: ff-enzo-web;
+    font-weight: 600;
+    color: #222;
+    font-size: 20px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+#tweets div {
+    border: 1px solid #ddd;
+    border-left: 3px solid #D26911;
+    padding: 3px 10px;
+    background: #FAFAFA;
+    border-radius: 2px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    margin: 10px 0;
+}
+#tweets div p {
+    margin: 0;
+}
+#tweets div .meta {
+    text-align: right;
+    font-size: 14px;
+}
+
+.btn {
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #BBB;
+    border-bottom-color: #A8A8A8;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    -ms-transition: all .2s;
+    transition: all .2s;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+    text-decoration: none;
+    color: #666;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #F8F8F8), color-stop(1, #DFDFDF));
+    background: -webkit-linear-gradient(top, #F8F8F8 0%, #DFDFDF 100%);
+    background: -moz-linear-gradient(top, #F8F8F8 0%, #DFDFDF 100%);
+    background: -o-linear-gradient(top, #F8F8F8 0%, #DFDFDF 100%);
+    background: -ms-linear-gradient(top, #F8F8F8 0%, #DFDFDF 100%);
+    background: linear-gradient(top, #F8F8F8 0%, #DFDFDF 100%);
+    font-family: helvetica,arial,freesans,clean,sans-serif;
+    text-shadow: 1px 1px 0 white;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.btn:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #F3F3F3), color-stop(1, lightGrey));
+    background: -webkit-linear-gradient(top, #F3F3F3 0%, lightGrey 100%);
+    background: -moz-linear-gradient(top, #F3F3F3 0%, lightGrey 100%);
+    background: -o-linear-gradient(top, #F3F3F3 0%, lightGrey 100%);
+    background: -ms-linear-gradient(top, #F3F3F3 0%, lightGrey 100%);
+    background: linear-gradient(top, #F3F3F3 0%, lightGrey 100%);
+    text-decoration:none;
+}
+.btn > span {
+    font-weight: 300;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 7px;
+}
+.btn-primary {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #19D), color-stop(1, #0E7AB1));
+    background: -webkit-linear-gradient(top, #19D 0%, #0E7AB1 100%);
+    background: -moz-linear-gradient(top, #19D 0%, #0E7AB1 100%);
+    background: -o-linear-gradient(top, #19D 0%, #0E7AB1 100%);
+    background: -ms-linear-gradient(top, #19D 0%, #0E7AB1 100%);
+    background: linear-gradient(top, #19D 0%, #0E7AB1 100%);
+    color: white;
+    text-shadow: none;
+}
+.btn-primary:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #1091D2), color-stop(1, #0C6B9B));
+    background: -webkit-linear-gradient(top, #1091D2 0%, #0C6B9B 100%);
+    background: -moz-linear-gradient(top, #1091D2 0%, #0C6B9B 100%);
+    background: -o-linear-gradient(top, #1091D2 0%, #0C6B9B 100%);
+    background: -ms-linear-gradient(top, #1091D2 0%, #0C6B9B 100%);
+    background: linear-gradient(top, #1091D2 0%, #0C6B9B 100%);
+}
+.btn.btn-large {
+    height: 26px;
+    padding: 5px 9px 4px;
+}
+.btn.btn-large > span {
+    font-weight: 600;
+    font-family: ff-enzo-web;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 9px;
+    font-size: 20px;
 }
