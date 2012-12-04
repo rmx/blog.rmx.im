@@ -407,3 +407,31 @@ header .slug a {
     font-size: 26px;
     padding-left: 10px;
 }
+
+.social {
+    float: right;
+    line-height: 40px;
+}
+.social .badge {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 40px;
+}
+.social .badge img {
+    width: 30px;
+    height: 30px;
+    margin-top: 4px;
+}
+.social .badge.twitter img {
+    border: 1px solid #CCC;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #DEDEDE));
+    background-image: -webkit-linear-gradient(top, white 0%, #DEDEDE 100%);
+    background-image: -moz-linear-gradient(top, white 0%, #DEDEDE 100%);
+    background-image: -o-linear-gradient(top, white 0%, #DEDEDE 100%);
+    background-image: -ms-linear-gradient(top, white 0%, #DEDEDE 100%);
+    background-image: linear-gradient(top, white 0%, #DEDEDE 100%);
+    width: 28px;
+    height: 28px;
+}
