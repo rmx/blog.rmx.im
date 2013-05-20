@@ -44,6 +44,6 @@ currently controlled unit.
 
 <span class="center">
   <span class="shadow">
-![img](/assets/post/weekly-changelog/game-loading-screen.png)
+![img](/assets/post/weekly-changelog/mage_part_effect.png)
   </span>
 </span>
