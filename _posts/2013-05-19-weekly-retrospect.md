@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Weekly Retrospect (Changelog)"
-published:false
 ---
 
 We recently decided to (try to) post brief write-ups about our ongoing
@@ -31,7 +30,7 @@ particle sources that move with units. The particle effect definition
 distinguishes two position types: absolute (coordinates or unit) and relative
 (unit or labeled vertex):
 
-    "zone": { "SphereCapZone": ["relunit pos_label", 0.5, 0.6, 80] }
+    "SphereCapZone": ["relunit pos_label", 0.5, 0.6, 80]
 
 The exact specification of the position is deferred to the spell script, where
 previously defined position labels (`pos_label`) are resolved to world
