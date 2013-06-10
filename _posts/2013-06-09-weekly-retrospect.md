@@ -4,13 +4,13 @@ title: "Weekly Retrospect (Changelog)"
 ---
 
 While testing/playing the new content with 3 players was enormously fun, we
-noticed some shortcomings that needed our attention this week:
+noticed some shortcomings that needed our attention in the last two weeks:
 
-* target selection was rather painful: picking does not working as well as we
+* target selection was rather painful: picking does not work as well as we
 would have hoped and cycling through all targets can be agonizingly slow,
 * threat management is still not behaving completely to our liking,
 * we noticed a recurring and large consumption of resources when playing
-encounters most likely entailed by the particle system.
+encounters (most likely entailed by the particle system).
 
 Besides introducing a "smart" target cycler (cone in front of the player) to
 address the picking problem, we introduced a new label to mark world objects
@@ -26,7 +26,10 @@ Three.js `BufferGeometry` in some places and fixing the caching of models when
 loading encounters.
 
 Moreover we found some memory leaks in the particle system class. After
-addressing the performance is back to an acceptable level.
+addressing the leaks the performance is back to an acceptable level but may
+require additional effort. With the options to disable particle effects (an
+option for a  more gradual reduction on the particle system resources is
+planned) we hope to enable players with low-end machines to enjoy the game.
 In order to prevent the garbage collector from stealing too many CPU cycles
 we might have to start reusing memory more aggresively in the future.
 
