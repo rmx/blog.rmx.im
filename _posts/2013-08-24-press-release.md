@@ -34,6 +34,6 @@ For more information about encounter, visit [encounter.io](www.encounter.io),
 or contact us at contact@rmx.im.
 
 Follow us on [Twitter](@rmxinc),
-[Facebook](facebook.com/pages/Encounter-The-Game/254208871367032),
+[Facebook](http://facebook.com/pages/Encounter-The-Game/254208871367032),
 [google+](https://plus.google.com/communities/117298293018611694577),
-or on our [blog](blog.rmx.im).
+or on our [blog](http://blog.rmx.im).
