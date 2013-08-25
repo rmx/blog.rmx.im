@@ -3,7 +3,7 @@ layout: post
 title: "Press Release: New Product Video"
 ---
 Zurich, Switzerland - 24 Aug 2013: RMX.INC released the second
-[feature update video](http://www.youtube.com) today.
+feature update video today.
 
 <iframe src="http://player.vimeo.com/video/73082400" width="100%"
 height="340" webkitallowfullscreen="webkitAllowFullScreen"
