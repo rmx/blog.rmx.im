@@ -31,7 +31,7 @@ improvements and new game mechanics" said wereHamster, RMX.INC General Manager.
 
 About RMX.INC:
 For more information about encounter, visit [encounter.io](http://encounter.io),
-or contact us at contact@rmx.im.
+or contact us at [contact@rmx.im](mailto:contact@rmx.im).
 
 Follow us on [Twitter](http://twitter.com/rmxinc),
 [Facebook](http://facebook.com/pages/Encounter-The-Game/254208871367032),
