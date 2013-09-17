@@ -3,8 +3,8 @@ layout: post
 title: "Monthly Gamejam Sessions"
 ---
 Good news everyone! Starting in October we will organize monthly (last
-Tuesday in the month -- first gamejam on 29.10.13) game jams where you have
-the chance to test new unreleased content with us.
+Tuesday in the month) game jams where you have the chance to test new
+unreleased content with us.
 
 These events will eventually look like:
 
@@ -17,7 +17,7 @@ These events will eventually look like:
 
 So, if you want to help us make the new content challenging and interesting,
 or simply enjoy to play the game together with the devs, make sure to mark
-the 24.9.2013 in your calendar!
+the 29.10.2013 in your calendar!
 
 We will record game jams and some of the footage will be made available on
 youtube or twitch.
