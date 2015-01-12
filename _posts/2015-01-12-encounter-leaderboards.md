@@ -6,10 +6,9 @@ author: "Tomas Carnecky"
 
 A while ago I implemented the necessary backend changes to support
 leaderboards. Even though it's a nice feature to have – it allows players to
-compare their performance and skill with each other – I haven't seen a
-widespread adoption of this feature. The most likely explanation is because
-nobody is awary of this new feature. And that is what this post is trying to
-rectify.
+compare their performance and skill with each other – I haven't seen
+a widespread adoption of it. The most likely explanation is because nobody is
+aware of its existence. And that is what this post is trying to rectify.
 
 The leaderboards are currently hidden, there is no direct link to them. If you
 want to view them you have to append `/leaderboard` to the public encounter
