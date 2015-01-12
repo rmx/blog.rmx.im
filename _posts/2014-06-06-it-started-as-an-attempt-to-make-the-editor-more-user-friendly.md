@@ -11,9 +11,11 @@ that with the first rewrite. However, we saw that Polymer is not really
 suitable for web applications. So at some point we've rewritten the rendering
 code to use [React][react].
 
-<figure>
-    ![img](/assets/encounters-collection.png)
-</figure>
+<span class="center">
+    <span class="shadow">
+        ![img](/assets/encounters-collection.png)
+    </span>
+</span>
 
 The underlying data structure remained the same. It has much more explicit
 structure than before. Instead of writing more or less free form scripts,
@@ -21,8 +23,10 @@ you now enter number into input fields, select checkboxes, pick items from
 dropdown menus and so on.
 
 <figure class="supporting">
-    ![img](/assets/aura-main-view.png)
-</div>
+    <span class="shadow">
+        ![img](/assets/aura-main-view.png)
+    </span>
+</figure>
 
 The main aura editor for example is now much easier to use. As you see on the
 left, to configure the basic aura properties, you don't need to write a single
