@@ -22,11 +22,11 @@ structure than before. Instead of writing more or less free form scripts,
 you now enter number into input fields, select checkboxes, pick items from
 dropdown menus and so on.
 
-<figure class="supporting">
+<span class="supporting figure">
     <span class="shadow">
         ![img](/assets/aura-main-view.png)
     </span>
-</figure>
+</span>
 
 The main aura editor for example is now much easier to use. As you see on the
 left, to configure the basic aura properties, you don't need to write a single
