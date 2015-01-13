@@ -17,7 +17,7 @@ page, eg:
 They don't look very good yet, and I've already received a complaint from
 a user to improve the look. I'm aiming for something similar to the [WoW
 challenge mode
-leaderboards](http://eu.battle.net/wow/en/challenge/dungeon/skyreach).
+leaderboards](http://eu.battle.net/wow/en/challenge/dungeon/skyreach/).
 
 
 ### How are leaderboards generated?
@@ -41,7 +41,7 @@ can decide based on what happened to increase or decrease the score of some
 parties.
 
 To edit the *scoring function* go the the main encounter editor page and
-select *Scoring function* from the sidebar. If an encounter doens't have a
+select *Scoring function* from the sidebar. If an encounter doesn't have a
 *scoring function* defined then no leaderboard will be generated.
 
 Here is an example *scoring function*, one which gives all parties a point for
