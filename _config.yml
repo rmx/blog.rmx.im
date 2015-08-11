@@ -1,2 +1,7 @@
+name: blog.rmx.im
 markdown: redcarpet
+highlighter: rouge
+exclude: [vendor,script,Procfile]
 excerpt_separator: ""
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "footnotes"]

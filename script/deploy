@@ -1,0 +1,19 @@
+#!/bin/sh
+set -e
+cd "$(dirname "$0")/.."
+
+script/bootstrap
+
+rm -rf _site _release
+
+bundle exec jekyll build
+mole --paths _site build _release
+
+
+# Upload all files to the bucket with no cache-control.
+gsutil -m -h 'Cache-Control: public, max-age=86400' rsync -cR \
+    _release/ gs://blog.rmx.im
+
+# Now change the cache-control header of all files except HTML.
+gsutil -m setmeta -h 'Cache-Control: no-cache, no-store, must-revalidate' \
+    gs://blog.rmx.im/**/*.html
